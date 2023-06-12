@@ -1,0 +1,24 @@
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #f1e68f;
+    color: blue;
+    
+    transition: color 250ms linear, background-color 250ms linear;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
